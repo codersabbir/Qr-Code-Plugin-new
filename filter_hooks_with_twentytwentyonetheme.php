@@ -74,11 +74,11 @@ add_filter('the_content', 'word_reading_time');
 
 function title_change($title){
     // echo "<h1>".$title."</h1>";
-    $title = "Hello Boss";
+    $title = "I've Changed the Post Title";
     // $title_word = strip_tags($title);
     // $tag = apply_filters('wordcount_readingtime_tag', 'h5');
-    $label = __('Total reading time of this above content', 'word-count');
-    $label = apply_filters('change_the_title', $label);
+    // $main_title = __($title, 'word-count');
+    // $main_title= apply_filters('change_the_title', $main_title);
     // $title .= sprintf('<%s> %s </%s>',$tag,$title_word,$tag);
     return $title;
     // var_dump($title);
